@@ -1,0 +1,86 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.img1 {
+    width: 200px;
+    height: auto;
+}
+.hero, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+
+h1 {
+    font-size: 48px;
+    
+    font-weight: 900;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+    
+}
+
+ul {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.information, h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.information, .box-text {
+    font-size: 18px;
+    font-weight: unset;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+}
+
+/* Flexbox stuff */
+.hero {
+    padding-bottom: 60px;
+}
+.top-page {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    padding: 20px;
+    
+}
+
+.title-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 450px;
+}
